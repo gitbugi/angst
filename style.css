@@ -1,0 +1,81 @@
+body {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+
+/*---HEADER---*/
+
+.header-img {
+    background-image: url("Bilder/Header-img1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 90vh;
+}
+
+.header-txt {
+    width: 100vw;
+    height: 80vh;
+    color: red;
+    font-size: 60px;
+    font-family: 'Rubik Marker Hatch', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*---MAIN---*/
+
+main {
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .angstFragen {
+    margin-bottom: 150px;
+}
+
+main .angstFragen h2 {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+main .selbsthilfe {
+    width: 100vw;
+    text-align: center;
+}
+
+
+/*---FOOTER---*/
+
+footer {
+    background-color: rgb(33, 37, 41);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+footer h3 {
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+footer .namen {
+    margin-bottom: 25px;
+    font-size: 15px;
+}
