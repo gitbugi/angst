@@ -1,6 +1,21 @@
 body {
     width: 100vw;
     overflow-x: hidden;
+    background: linear-gradient(180deg, rgba(34, 31, 31, 1) 0%, rgba(59, 59, 62, 1) 44%, rgba(54, 64, 66, 1) 100%);
+    ;
+}
+
+nav {
+    box-shadow: 0px 5px 77px grey
+}
+
+.bg-dark {
+    background-color: black !important;
+}
+
+.nav-item {
+    color: white;
+    font-size: 20px;
 }
 
 
@@ -30,42 +45,153 @@ body {
 /*---MAIN---*/
 
 main {
-    background-color: white;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-main .angstFragen {
-    margin-bottom: 150px;
-}
-
-main .angstFragen h2 {
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    text-decoration: underline;
-}
-
-main .selbsthilfe {
-    width: 100vw;
-    text-align: center;
-}
-
-
-/*---FOOTER---*/
-
-footer {
-    background-color: rgb(33, 37, 41);
     width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
+    margin-top: 50px;
+}
+
+.behandlung-pic {
+    background-image: url(/Bilder/pexels-pietro-jeng-360622.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 45vw;
+    margin-right: 5vw;
+    height: 50vh;
+}
+
+.neuro {
+    background-image: url(/Bilder/neurobiologisch.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 45vw;
+    height: 50vh;
+}
+
+.lern {
+    background-image: url(/Bilder/lern.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 45vw;
+    height: 50vh;
+}
+
+.umwelt {
+    background-image: url(/Bilder/umwelt.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 45vw;
+    height: 50vh;
+}
+
+.genetik {
+    background-image: url(/Bilder/genetik.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 45vw;
+    height: 50vh;
+}
+
+.panik-pic {
+    background-image: url(/Bilder/pexels-shvets-production-8410834.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 45vw;
+    margin-right: 5vw;
+    height: 50vh;
+}
+
+.angst-entstehung {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.angst-entstehung-list {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px 10px;
+    grid-template-areas: ". ." ". .";
+    list-style: none;
+}
+
+main .angstFragen {
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+main .angstFragen .fragen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45vw;
+    padding-left: 5vw;
+    font-size: 25px;
+}
+
+.angstFragen-pic {
+    background-image: url(/Bilder/question-mark-1872665_960_720.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 45vw;
+    margin-right: 5vw;
+    height: 50vh;
+}
+
+main .selbsthilfe {
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.selbsthilfe-pic {
+    background-image: url(/Bilder/men-3610255_960_720.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 45vw;
+    margin-left: 5vw;
+    height: 50vh;
+}
+
+.selbsthilfe-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5vw;
+    font-size: 50px;
+    width: 50vw;
+}
+
+
+/*---FOOTER---*/
+
+footer {
+    /*background-color: rgb(33, 37, 41);*/
+    background-color: black;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 100px;
+    box-shadow: 0px 5px 77px grey
 }
 
 footer h3 {
@@ -78,4 +204,13 @@ footer h3 {
 footer .namen {
     margin-bottom: 25px;
     font-size: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+    .selbsthilfe-link {
+        font-size: 14px;
+    }
+    main .angstFragen .fragen {
+        font-size: 16px;
+    }
 }
