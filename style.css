@@ -30,7 +30,7 @@ nav {
 /*---HEADER---*/
 
 .header-img {
-    background-image: url(".Bilder/Header-img1.jpg");
+    background-image: url("./Bilder/Header-img1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -68,7 +68,7 @@ section {
 }
 
 .behandlung-pic {
-    background-image: url(".Bilder/pexels-pietro-jeng-360622.jpg");
+    background-image: url("./Bilder/pexels-pietro-jeng-360622.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -78,7 +78,7 @@ section {
 }
 
 .neuro {
-    background-image: url(".Bilder/neurobiologisch.jpg");
+    background-image: url("./Bilder/neurobiologisch.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -87,7 +87,7 @@ section {
 }
 
 .lern {
-    background-image: url(".Bilder/lern.jpg");
+    background-image: url("./Bilder/lern.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -96,7 +96,7 @@ section {
 }
 
 .umwelt {
-    background-image: url(".Bilder/umwelt.jpg");
+    background-image: url("./Bilder/umwelt.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -105,7 +105,7 @@ section {
 }
 
 .genetik {
-    background-image: url(".Bilder/genetik.jpg");
+    background-image: url("./Bilder/genetik.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -131,7 +131,7 @@ section {
 }
 
 .panik-pic {
-    background-image: url(".Bilder/pexels-shvets-production-8410834.jpg");
+    background-image: url("./Bilder/pexels-shvets-production-8410834.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -201,7 +201,7 @@ main .angstFragen .fragen {
 }
 
 .angstFragen-pic {
-    background-image: url(".Bilder/question-mark-1872665_960_720.webp");
+    background-image: url("./Bilder/question-mark-1872665_960_720.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -218,7 +218,7 @@ main .selbsthilfe {
 }
 
 .selbsthilfe-pic {
-    background-image: url(".Bilder/men-3610255_960_720.jpg");
+    background-image: url("./Bilder/men-3610255_960_720.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
